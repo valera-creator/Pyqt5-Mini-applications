@@ -81,7 +81,7 @@ class MiniSeaBattle(QMainWindow):
             '   ' - 'стоит корабль'
             '    ' - 'уничтоженный корабль'
 
-            """
+    """
 
     def __init__(self):
         super().__init__()

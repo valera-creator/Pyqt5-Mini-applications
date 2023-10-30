@@ -14,7 +14,7 @@ class MinPadding(QMainWindow):
             '' - 'чистая клетка'
             '  ' -  'заминировано'
             '   ' - сюда уже сходили
-            """
+    """
 
     def __init__(self):
         super().__init__()
