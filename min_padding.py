@@ -8,17 +8,17 @@ from save_bd_results import write_sqlite
 
 
 class MinPadding(QMainWindow):
+    """
+            расшифровка значений на кнопках
+
+            '' - 'чистая клетка'
+            '  ' -  'заминировано'
+            '   ' - сюда уже сходили
+            """
+
     def __init__(self):
         super().__init__()
         self.initUI()
-
-        """
-        расшифровка значений на кнопках
-    
-        '' - 'чистая клетка'
-        '  ' -  'заминировано'
-        '   ' - сюда уже сходили
-        """
 
     def initUI(self):
         self.setGeometry(400, 300, 800, 550)
